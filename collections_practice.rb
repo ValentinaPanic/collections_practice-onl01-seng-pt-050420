@@ -25,8 +25,9 @@ def kesha_maker(array)
 end
 def find_a(array)
   array.each do |word|
-    if word.start_with?("a")
-      puts "#{word}"
+    while i == word.start_with?("a")
+      yield(array[1])
+      i+=1
     end
 end
 end
