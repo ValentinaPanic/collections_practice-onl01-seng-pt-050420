@@ -27,7 +27,7 @@ def find_a(array)
   i = 0
   array.each do |word|
     while i == word.start_with?("a")
-      yield(array[1])
+      yield(array[i])
       i+=1
     end
 end
