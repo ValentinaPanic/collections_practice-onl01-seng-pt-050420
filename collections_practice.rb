@@ -24,13 +24,7 @@ def kesha_maker(array)
    array.each{|string| string[2] = "$"}
 end
 def find_a(array)
-  i = 0
-  a_words = []
   array.each do |word|
-    if i == word.start_with?("a")
-      a_words << yield(array[i])
-      i+=1
+     word.start_with?("a")
     end
-end
-a_words
 end
