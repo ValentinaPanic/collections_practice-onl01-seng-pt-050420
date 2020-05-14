@@ -24,7 +24,7 @@ def kesha_maker(array)
    array.each{|string| string[2] = "$"}
 end
 def find_a(array)
-  
+
   array.each do |word|
     puts word.start_with?("T")
 end
