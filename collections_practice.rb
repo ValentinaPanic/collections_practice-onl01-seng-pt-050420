@@ -25,11 +25,12 @@ def kesha_maker(array)
 end
 def find_a(array)
   i = 0
+  a_words = []
   array.each do |word|
     if i == word.start_with?("a")
-      yield(array[i])
+      a_words << yield(array[i])
       i+=1
     end
 end
-puts array
+a_words
 end
