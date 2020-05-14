@@ -26,7 +26,7 @@ end
 def find_a(array)
   array.each do |word|
     if word.start_with?("a")
-      puts word
+      puts "#{word}"
     end
 end
 end
