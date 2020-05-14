@@ -24,8 +24,8 @@ def kesha_maker(array)
    array.each{|string| string[2] = "$"}
 end
 def find_a(array)
-  array.collect do |word|
-     word.start_with?("a")
+  array.each do |word|
+     word.start_with?("a").collect
     end
 end
 def sum_array(array)
