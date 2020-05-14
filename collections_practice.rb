@@ -28,7 +28,7 @@ array.find_all{|word| word.start_with?("a")}
 end
 def sum_array(array)
   array.each do |num|
-    sum +=1
+    sum +=num
 
   end
 end
