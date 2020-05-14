@@ -31,4 +31,5 @@ def find_a(array)
       i+=1
     end
 end
+array
 end
