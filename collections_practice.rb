@@ -27,3 +27,4 @@ def find_a(array)
   array.each do |word|
     word.start_with?("T")
 end
+end
